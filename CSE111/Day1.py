@@ -1,0 +1,6 @@
+color = input("Enter your favorite color here: ")
+number = input("Enter your favorite number: ")
+print("So your favorite color is:")
+print(color)
+print("and your favorite number is:")
+print(number)
