@@ -2,15 +2,22 @@ body {
 background-color: #ade4f1;
 max-width: 1600px;
 margin : 0 auto;
-
+padding: 0;
+font-family: 'Courier New', Courier, monospace;
+font-size: 1.6em;
 }
 header {
     background-color: #9bdaf7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h2{
+    margin: 0;
 }
 nav a {
     text-align: center;
     color: #000000;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #31b7f5;
@@ -18,6 +25,8 @@ nav a:hover {
 }
 .home-title {
     color: #000000;
+    font-size: 2em;
+    margin-top: 10px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -29,8 +38,21 @@ nav a:hover {
 .logo {
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #000000;
+}
+.mountains{
+    padding-bottom: 100px;
 }
 .button-box {
     text-align: center;
@@ -39,6 +61,10 @@ nav a:hover {
     background-color: #9cdffa;
     color: #000000;
     text-decoration: none;
+    font-size: 22px;
+    padding: 15px 30px;
+    margin-top: 200px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #9cdffa;
@@ -47,21 +73,30 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
 }
 .msg {
     background-color: #70dafa;
+    font-size: 1.2em;
+    padding: 35px;
 }
 .msg h2{
     color: #000000;
 }
 .msg p{
     color: #000000;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #70dafa;
     color: #000000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.23em;
@@ -75,4 +110,7 @@ footer a {
 }
 footer a:hover {
     color: #000000;
+}
+footer .social img{
+    padding-top: 15px;
 }
