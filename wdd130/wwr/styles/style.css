@@ -42,6 +42,11 @@ nav a:hover {
     text-align: center;
     color: white;
 }
+#hero-msg h5{
+    color: #000000;
+    text-align: center;
+    font-size: 2em;
+}
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -172,7 +177,7 @@ footer .social img{
     padding-top: 15px;
 }
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-grid {
         display: block;
         height: auto;
     }
@@ -211,4 +216,46 @@ footer .social img{
     footer {
         margin-top: 25px;
     }
+}
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.salmon-card {
+    grid-column: 1;
+    grid-row: 1;
+}
+.salmon-msg {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    margin: 50px;
+}
+.paddling-card {
+    grid-column: 1;
+    grid-row: 2;
+}
+.paddling-msg {
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    margin: 50px;
+}
+.canoe-card {
+    grid-column: 1;
+    grid-row: 3;
+}
+.canoe-msg {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    margin: 50px;
+}
+.page2-img {
+    border: 3px solid #000000;
+    width: 100%;
+    margin: 20px;
+}
+.rivers-title {
+    color: #000000;
 }
