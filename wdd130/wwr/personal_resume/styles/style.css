@@ -1,24 +1,35 @@
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 3em;
-    height: 100px;
-    padding-top: 50px;
+    max-width: 1600px;
+    height: 200px;
+    padding: 0px;
+    margin: 0 auto;
     background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
 }
 nav a {
     text-align: center;
     text-decoration: none;
     color: #023e8a;
+    
 }
 #title h1 {
     text-align: center;
     font-size: 4em;
     color: #023e8a;
+}
+body {
+    background-color: #EFECE1;
+    max-width: 1600px;
+    padding: 0;
+    margin: 0;
 }
 .resume-grid {
     display: grid;
@@ -28,32 +39,50 @@ nav a {
     width: 400px;
     border: 3px solid #000000;
     margin-bottom: 30px;
+    background-color: white;
 }
 .grid-msg {
     font-size: 1.5em;
     padding: 20px;
+    color: #4D427D;
 }
 .code-img {
     width: 600px;
 }
-.home-headshot, .exp-BIG5 {
+.home-headshot, .exp-BIG5, .accom-EAC {
     justify-self: center;
     grid-column: 1;
     grid-row: 1;
     padding: 20px;
 }
-.home-code, .exp-ACE {
+.home-code, .exp-ACE, .accom-BYU {
     justify-self: center;
     grid-column: 1;
     grid-row: 2;
     padding: 20px;
 }
 footer {
-    text-align: center;
+    background-color: blanchedalmond;
+    color: #396E94;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p {
+    font-size: 1.23em;
+}
+footer p a:hover {
+    text-decoration: none;
 }
 footer a {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #396E94;
     text-decoration: none;
-    font-size: 2em;
-    color: #023e8a;
+}
+footer a:hover {
+    color: #396E94;
+}
+footer .social img{
+    padding-top: 15px;
 }
